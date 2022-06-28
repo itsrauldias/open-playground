@@ -2,7 +2,7 @@
   "name": "open-playground",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://itsrauldias.github.io/open-playground",
+  "homepage": "https://itsrauldias.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
