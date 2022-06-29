@@ -16,7 +16,8 @@ class QrCodeGenerator extends React.Component {
       height: this.props.height || 256,
       colorDark: this.props.colorDark || '#000000',
       logo: this.props.logo || false,
-      drawer: 'svg'
+      drawer: 'svg',
+      logoBackgroundTransparent: this.props.logoBackgroundTransparent || false
     }
 
     // Create new QRCode Object

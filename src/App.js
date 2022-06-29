@@ -18,6 +18,7 @@ function App() {
           // height={100}
           colorDark='black'
           logo={logo}
+          logoBackgroundTransparent={true}
         />
       </div>
     </div>
