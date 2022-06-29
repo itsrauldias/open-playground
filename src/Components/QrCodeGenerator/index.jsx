@@ -25,7 +25,7 @@ class QrCodeGenerator extends React.Component {
   }
   render() {
     return (
-      <div ref={this.qrcode} />
+      <span ref={this.qrcode} />
     );
   }
 }

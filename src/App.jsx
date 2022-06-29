@@ -8,8 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <h3>Open playground</h3>
-      <hr />
+      <div className="container mt-2">
+        <h3><i className='fa fa-rocket' /> Open playground</h3>
+      </div>
       <div style={{ textAlign: 'center' }}>
         <h3>{qrCode}</h3>
         <QrCodeGenerator
