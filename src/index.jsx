@@ -6,6 +6,7 @@ import 'admin-lte/dist/css/adminlte.min.css';
 import 'admin-lte/dist/js/adminlte.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import reportWebVitals from './reportWebVitals';
+import { register as registerServiceWorker } from './serviceWorkerRegistration';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,3 +19,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+registerServiceWorker();
