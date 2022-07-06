@@ -4,8 +4,8 @@ export function QrCodeGenerator() {
 
     return (
         <>
-            <h3>Componentes</h3>
-            <Link to={'/open-playground/menu'}><span className="btn"><i className='fa fa-caret-left' /> Voltar</span></Link>
+            <h3>Qr Code Generator</h3>
+            <Link to={'/open-playground/menu/componentes'}><span className="btn"><i className='fa fa-caret-left' /> Voltar</span></Link>
             <br /><br />
             <div className="card">
                 <h3>card-title</h3>
