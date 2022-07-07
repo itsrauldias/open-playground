@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import WhatsappSendMessage from '../../Components/WhatsappSendMessage';
+import WhatsappSendMessage from '../../../Components/WhatsappSendMessage';
 
 export function WhatsappMessageSender() {
 
@@ -11,7 +11,7 @@ export function WhatsappMessageSender() {
     return (
         <>
             <h3>Whatsapp Message Sender</h3>
-            <Link to={'/open-playground/menu/componentes'}><span className="btn"><i className='fa fa-caret-left' /> Voltar</span></Link>
+            <Link to={'/open-playground/menu/utilitarios'}><i className='fa fa-caret-left' /> Voltar</Link>
             <br /><br />
             <div className="card">  
                 <div style={{ display: 'flex', justifyContent: 'center' }}>

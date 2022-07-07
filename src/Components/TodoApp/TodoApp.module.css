@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: -webkit-fill-available;
+    margin-right: 1rem;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+
+.listStyle {
+    list-style-type: none;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;   
+}

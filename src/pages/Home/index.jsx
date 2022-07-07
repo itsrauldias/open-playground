@@ -35,23 +35,22 @@ export function Menu() {
             <h3>Menu</h3>
             <i className='fa fa-caret-right' /> <span><Link to={'/open-playground'}>Home</Link></span>
             <br /><br />
-            <i className='fa fa-caret-right' /> <span><Link to={'/open-playground/menu/componentes'}>Componentes</Link></span>
+            <i className='fa fa-caret-right' /> <span><Link to={'/open-playground/menu/utilitarios'}>Utilitários</Link></span>
         </>
     )
 }
 
-export function Componentes() {
+export function Utilitarios() {
 
     return (
         <>
-            <h3>Componentes</h3>
-            <Link to={'/open-playground/menu'}><span className="btn"><i className='fa fa-caret-left' /> Voltar</span></Link>
-            <br /><br /><br /><br />
-            <div className="main-content">
-                <span className='btn'><i className='fa fa-qrcode' /> <Link to={'/open-playground/componentes/qrCodeGenerator'}>QrCodeGenerator</Link></span>
-                <span className='btn'><i className='fa-brands fa-whatsapp' /> <Link to={'/open-playground/componentes/whatsappMessageSender'}>Whatsapp MessageSender</Link></span>
+            <h3>Utilitários</h3>
+            <Link to={'/open-playground/menu'}><i className='fa fa-caret-left' /> Voltar</Link>
+            <div className="main-content" style={{ marginTop: '2rem' }}>
+                <Link to={'/open-playground/utilitarios/qrCodeGenerator'}><button className='btn'><i className='fa fa-qrcode' /> QrCodeGenerator</button></Link>
+                <Link to={'/open-playground/utilitarios/toDoApp'}><button className='btn'><i className='fa-solid fa-list-check' /> To Do App</button></Link>
+                <Link to={'/open-playground/utilitarios/whatsappMessageSender'}><button className='btn'><i className='fa-brands fa-whatsapp' /> Whatsapp MessageSender</button></Link>
             </div>
-
         </>
     )
 }

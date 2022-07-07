@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.scss';
+import './switches.scss';
 // import 'admin-lte/dist/css/adminlte.css';
 // import 'admin-lte/dist/js/adminlte.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
