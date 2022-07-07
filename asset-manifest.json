@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/open-playground/static/css/main.d241e507.css",
-    "main.js": "/open-playground/static/js/main.6aecc4b5.js",
+    "main.css": "/open-playground/static/css/main.3fc8200b.css",
+    "main.js": "/open-playground/static/js/main.0f1e49fa.js",
     "static/js/787.da99f815.chunk.js": "/open-playground/static/js/787.da99f815.chunk.js",
     "static/media/fa-solid-900.ttf": "/open-playground/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/fa-brands-400.ttf": "/open-playground/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
@@ -13,12 +13,12 @@
     "static/media/fa-v4compatibility.ttf": "/open-playground/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
     "static/media/fa-v4compatibility.woff2": "/open-playground/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/open-playground/index.html",
-    "main.d241e507.css.map": "/open-playground/static/css/main.d241e507.css.map",
-    "main.6aecc4b5.js.map": "/open-playground/static/js/main.6aecc4b5.js.map",
+    "main.3fc8200b.css.map": "/open-playground/static/css/main.3fc8200b.css.map",
+    "main.0f1e49fa.js.map": "/open-playground/static/js/main.0f1e49fa.js.map",
     "787.da99f815.chunk.js.map": "/open-playground/static/js/787.da99f815.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d241e507.css",
-    "static/js/main.6aecc4b5.js"
+    "static/css/main.3fc8200b.css",
+    "static/js/main.0f1e49fa.js"
   ]
 }
