@@ -48,8 +48,8 @@ export function Componentes() {
             <Link to={'/open-playground/menu'}><span className="btn"><i className='fa fa-caret-left' /> Voltar</span></Link>
             <br /><br /><br /><br />
             <div className="main-content">
-                <span className='card'><i className='fa fa-qrcode' /> <Link to={'/open-playground/componentes/qrCodeGenerator'}>QrCodeGenerator</Link></span>
-                <span className='card'><i className='fa-brands fa-whatsapp' /> <Link to={'/open-playground/componentes/whatsappMessageSender'}>Whatsapp MessageSender</Link></span>
+                <span className='btn'><i className='fa fa-qrcode' /> <Link to={'/open-playground/componentes/qrCodeGenerator'}>QrCodeGenerator</Link></span>
+                <span className='btn'><i className='fa-brands fa-whatsapp' /> <Link to={'/open-playground/componentes/whatsappMessageSender'}>Whatsapp MessageSender</Link></span>
             </div>
 
         </>
