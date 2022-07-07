@@ -23,7 +23,7 @@ export function WhatsappMessageSender() {
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <textarea value={mensagem} onChange={(e) => setMensagem(e.target.value)} rows={10} cols={40} />
                 </div>
-                <hr />
+                <br />
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <i className="fa fa-arrow-right" />
                     &nbsp;
