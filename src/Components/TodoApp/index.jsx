@@ -43,9 +43,13 @@ export default function TodoApp() {
 
     return (
         <div style={{ marginTop: '15px' }}>
-            <div style={{ display: 'flex' }}>
-                <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} autoComplete="off" type="text" id="floatingInput" placeholder="Digite aqui um To do" />
-                <button onClick={() => handleNewTodo()} disabled={inputValue === "" ? true : false}>➕</button>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <div style={{ width: '90vw' }}>
+                    <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} autoComplete="off" type="text" id="floatingInput" placeholder="Digite aqui um To do" />
+                </div>
+                <div style={{ width: '10vw', textAlign: 'right' }}>
+                    <button onClick={() => handleNewTodo()} disabled={inputValue === "" ? true : false}>+</button>
+                </div>
             </div>
             <hr />
             <ul className={styles.listStyle}>
@@ -64,7 +68,7 @@ export default function TodoApp() {
                                         {toDo.value}
                                     </div>
                                 </div>
-                                <button onClick={() => handleRemoveTodo(id)}>❌</button>
+                                <button onClick={() => handleRemoveTodo(id)}>x</button>
                             </li>
                         ))
                         :
