@@ -18,8 +18,17 @@ export function QrCodeGenerator() {
     return (
         <>
             <h3>Qr Code Generator</h3>
-            <Link to={'/open-playground/menu/utilitarios'}><i className='fa fa-caret-left' /> Voltar</Link>
-            <br /><br />
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                <span>
+                    <Link to={'/open-playground/menu/utilitarios'}><i className='fa fa-caret-left' /> Voltar</Link>
+                </span>
+                <div className='tooltip' style={{ textAlign: 'right' }}>
+                    Info <i className='fa fa-info-circle' />
+                    <span>
+                        Digite um texto ou link no campo de texto e clique em Gerar Qr Code.
+                    </span>
+                </div>
+            </div>
             <div className="card">
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <input type="text" value={qrCode} onChange={(e) => setQrCode(e.target.value)} style={{ width: '80%' }} />
@@ -47,7 +56,7 @@ export function QrCodeGenerator() {
                             />
                     }
                 </div>
-                <br />  
+                <br />
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <b>{qrCode}</b>
                 </div>

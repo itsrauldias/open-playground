@@ -11,7 +11,7 @@ export function Home() {
     return (
         <>
             <div>
-                <h3><i className='fa fa-rocket' /> Open playground</h3>
+                <h3><Link to={'/open-playground/menu'}><i className='fa fa-rocket' /> Open playground</Link></h3>
             </div>
             <div style={{ textAlign: 'center' }}>
                 <h3>{qrCode}</h3>

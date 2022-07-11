@@ -45,7 +45,7 @@ export default function TodoApp() {
         <div style={{ marginTop: '15px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div style={{ width: '90vw' }}>
-                    <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} autoComplete="off" type="text" id="floatingInput" placeholder="Digite aqui um To do" />
+                    <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} autoComplete="off" type="text" id="floatingInput" placeholder="Digite aqui uma tarefa ou lembrete" />
                 </div>
                 <div style={{ width: '10vw', textAlign: 'right' }}>
                     <button onClick={() => handleNewTodo()} disabled={inputValue === "" ? true : false}>+</button>

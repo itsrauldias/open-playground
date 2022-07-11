@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.scss';
-import './switches.scss';
-// import 'admin-lte/dist/css/adminlte.css';
-// import 'admin-lte/dist/js/adminlte.min.js';
+import './styles/index.scss';
+import './styles/switches.scss';
+import './styles/tooltip.scss';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import reportWebVitals from './reportWebVitals';
 import { register as registerServiceWorker } from './serviceWorkerRegistration';
