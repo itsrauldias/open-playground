@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Rotas } from "./Rotas";
+import { Toaster } from 'react-hot-toast';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <BrowserRouter>
         <Rotas />
       </BrowserRouter>
+      <Toaster />
     </div>
   );
 }

@@ -11,18 +11,16 @@ export function WhatsappMessageSender() {
     return (
         <>
             <h3>Whatsapp Message Sender</h3>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <span>
-                    <Link to={'/open-playground/menu/utilitarios'}><i className='fa fa-caret-left' /> Voltar</Link>
-                </span>
-                <div className='tooltip' style={{ textAlign: 'right' }}>
+            <span>
+                <Link to={'/open-playground/menu/utilitarios'}><i className='fa fa-caret-left' /> Voltar</Link>
+            </span>
+            <div className="card">
+                <div className='tooltip'>
                     Info <i className='fa fa-info-circle' />
                     <span>
                         Componente para envio de mensagem no whatsapp com texto pré-definido.
                     </span>
                 </div>
-            </div>
-            <div className="card">
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <input type="number" name="Fone" value={ddd} onChange={(e) => setDdd(e.target.value)} style={{ maxWidth: '10%', textAlign: 'center', fontSize: '24px' }} />
                     &nbsp;

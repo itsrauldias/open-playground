@@ -1,27 +1,12 @@
-import { useEffect } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import QrCodeGenerator from '../../Components/QrCodeGenerator';
 import logo from '../../favicon.png'
 
-import { get } from '../../services/dogApi';
-import { errorToast } from '../../Components/SimpleToast';
-
 export function Home() {
 
     const [qrCode] = useState('https://github.com/itsrauldias')
-    const [dogFact, setDogFact] = useState(null);
-
-    useEffect(() => {
-        errorToast('Falha ao buscar orçamentos');
-
-        const getDogFact = async () => {
-            const response = await get();
-            setDogFact(response.facts);
-        }
-        getDogFact();
-    }, [dogFact]);
 
     return (
         <>
@@ -39,16 +24,6 @@ export function Home() {
                     logoBackgroundTransparent={true}
                 />
             </div>
-            {
-                dogFact &&
-                <div className='card'>
-                    <p style={{textAlign: 'right'}}>
-                        <cite>{dogFact}</cite>
-                        <br />
-                        <small>by: <a href="https://kinduff.github.io/dog-api/">Dog API</a>.</small>
-                    </p>
-                </div>
-            }
         </>
     )
 }

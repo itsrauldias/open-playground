@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { successToast } from '../../../Components/SimpleToast';
 
 import QrCodeGeneratorC from '../../../Components/QrCodeGenerator';
 
@@ -12,24 +13,22 @@ export function QrCodeGenerator() {
         setLoading(true)
         setTimeout(() => {
             setLoading(false)
+            successToast('QrCode atualizado com sucesso!')
         }, 1000);
     }
 
     return (
         <>
             <h3>Qr Code Generator</h3>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <span>
-                    <Link to={'/open-playground/menu/utilitarios'}><i className='fa fa-caret-left' /> Voltar</Link>
-                </span>
-                <div className='tooltip' style={{ textAlign: 'right' }}>
+            <Link to={'/open-playground/menu/utilitarios'}><i className='fa fa-caret-left' /> Voltar</Link>
+            <div className="card">
+                <div className='tooltip'>
                     Info <i className='fa fa-info-circle' />
                     <span>
                         Digite um texto ou link no campo de texto e clique em Gerar Qr Code.
                     </span>
                 </div>
-            </div>
-            <div className="card">
+                <br />
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <input type="text" value={qrCode} onChange={(e) => setQrCode(e.target.value)} style={{ width: '80%' }} />
                 </div>
