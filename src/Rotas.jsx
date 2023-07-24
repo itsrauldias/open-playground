@@ -1,8 +1,9 @@
-import { Route, Routes } from 'react-router';
+import { Route, Routes } from "react-router";
 import { Home, Menu, Utilitarios } from "./pages/Home";
 import { QrCodeGenerator } from "./pages/Utilitarios/QrCodeGenerator";
 import { TodoApp } from "./pages/Utilitarios/TodoApp";
 import { WhatsappMessageSender } from "./pages/Utilitarios/WhatsappMessageSender";
+import { SidebarMenuPage } from "./pages/Utilitarios/SidebarMenuPage";
 
 export function Rotas() {
 
@@ -16,6 +17,7 @@ export function Rotas() {
             <Route path="/open-playground/utilitarios/qrCodeGenerator" element={<QrCodeGenerator />} />
             <Route path="/open-playground/utilitarios/toDoApp" element={<TodoApp />} />
             <Route path="/open-playground/utilitarios/whatsappMessageSender" element={<WhatsappMessageSender />} />
+            <Route path="/open-playground/utilitarios/sidebarMenu" element={<SidebarMenuPage />} />
         </Routes>
     )
 }
