@@ -17,10 +17,8 @@ export function SidebarMenuPage() {
                     </span>
                 </div>
                 <hr />
-                <SidebarMenu
-                    activateMenu={<><i className='fa fa-list' /> Menu</>}
-                >
-                    {/* Cnoteúdo do menu */}
+                <SidebarMenu activateMenu={<><i className='fa fa-list' /> Menu</>}>
+                    {/* Conteúdo do menu */}
                     <div className="card">
                         <b>Teste</b>
                         <p>
@@ -28,9 +26,6 @@ export function SidebarMenuPage() {
                         </p>
                     </div>
                     <hr />
-                    <div className="card">
-                        teste
-                    </div>
                     <div className="card">
                         teste
                     </div>
