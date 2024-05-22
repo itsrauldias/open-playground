@@ -51,6 +51,7 @@ export function Utilitarios() {
                 <Link to={'/open-playground/utilitarios/toDoApp'}><button className='btn'><i className='fa-solid fa-list-check' /> To Do App</button></Link>
                 <Link to={'/open-playground/utilitarios/whatsappMessageSender'}><button className='btn'><i className='fa-brands fa-whatsapp' /> Whatsapp MessageSender</button></Link>
                 <Link to={'/open-playground/utilitarios/sidebarMenu'}><button className='btn'><i className='fa-solid fa-list' /> Side menu</button></Link>
+                <Link to={'/open-playground/utilitarios/pushNotifications'}><button className='btn'><i className='fa-solid fa-list' /> Push Notifications</button></Link>
             </div>
         </>
     )

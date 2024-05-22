@@ -4,6 +4,7 @@ import { QrCodeGenerator } from "./pages/Utilitarios/QrCodeGenerator";
 import { TodoApp } from "./pages/Utilitarios/TodoApp";
 import { WhatsappMessageSender } from "./pages/Utilitarios/WhatsappMessageSender";
 import { SidebarMenuPage } from "./pages/Utilitarios/SidebarMenuPage";
+import { PushNotifications } from "./pages/Utilitarios/PushNotifications";
 
 export function Rotas() {
 
@@ -18,6 +19,7 @@ export function Rotas() {
             <Route path="/open-playground/utilitarios/toDoApp" element={<TodoApp />} />
             <Route path="/open-playground/utilitarios/whatsappMessageSender" element={<WhatsappMessageSender />} />
             <Route path="/open-playground/utilitarios/sidebarMenu" element={<SidebarMenuPage />} />
+            <Route path="/open-playground/utilitarios/pushNotifications" element={<PushNotifications />} />
         </Routes>
     )
 }
