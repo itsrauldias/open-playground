@@ -5,6 +5,7 @@ import { TodoApp } from "./pages/Utilitarios/TodoApp";
 import { WhatsappMessageSender } from "./pages/Utilitarios/WhatsappMessageSender";
 import { SidebarMenuPage } from "./pages/Utilitarios/SidebarMenuPage";
 import { PushNotifications } from "./pages/Utilitarios/PushNotifications";
+import { IsStandalone } from "./pages/Utilitarios/IsStandalone";
 
 export function Rotas() {
 
@@ -20,6 +21,7 @@ export function Rotas() {
             <Route path="/open-playground/utilitarios/whatsappMessageSender" element={<WhatsappMessageSender />} />
             <Route path="/open-playground/utilitarios/sidebarMenu" element={<SidebarMenuPage />} />
             <Route path="/open-playground/utilitarios/pushNotifications" element={<PushNotifications />} />
+            <Route path="/open-playground/utilitarios/isStandalone" element={<IsStandalone />} />
         </Routes>
     )
 }
